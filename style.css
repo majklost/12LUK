@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(138, 138, 46, 0.445);
+    text-align: center;
+}
+.answer{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#box{
+    text-align: center;
+    border: 2px solid #ff0000;
+    display: grid;
+    grid-template-areas: 'fourth''third''second''first';
+}
+#button_box{
+    
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    display:flexbox;
+    width: 50%;
+    height: 50px;
+    background-color: violet;
+    font-weight: 900;
+}
+.line div{
+    display: inline-block;
+
+}
+
+#third{
+    grid-area: third;
+}
+#fourth{
+    grid-area: fourth;
+}
+#an1{
+    background-image: url("./greyscale/1.png");
+    background-size: 100px 100px;    
+}
+#an2{
+    background-image: url("./greyscale/2.png");
+    background-size: 100px 100px;    
+}
+#an3{
+    background-image: url("./greyscale/3.png");
+    background-size: 100px 100px;    
+}
+#an4{
+    background-image: url("./greyscale/4.png");
+    background-size: 100px 100px;    
+}
+#an5{
+    background-image: url("./greyscale/5.png");
+    background-size: 100px 100px;    
+}
+#an6{
+    background-image: url("./greyscale/6.png");
+    background-size: 100px 100px;    
+}
+#an7{
+    background-image: url("./greyscale/7.png");
+    background-size: 100px 100px;    
+}
+#an8{
+    background-image: url("./greyscale/8.png");
+    background-size: 100px 100px;    
+}
+#an9{
+    background-image: url("./greyscale/9.png");
+    background-size: 100px 100px;    
+}
+#an10{
+    background-image: url("./greyscale/10.png");
+    background-size: 100px 100px;    
+}
+#an11{
+    background-image: url("./greyscale/11.png");
+    background-size: 100px 100px;    
+}
+#an12{
+    background-image: url("./greyscale/12.png");
+    background-size: 100px 100px;    
+}
